@@ -9,6 +9,10 @@ import Equipment from "./Equipment";
 import AddEquipment from "./AddEquipment";
 import Garnish from "./Garnish"
 import AddGarnish from "./AddGarnish"
+import Glass from "./Glass";
+import AddGlass from "./AddGlass";
+import Ingredient from "./Ingredient";
+import AddIngredient from "./AddIngredient";
 
 function App() {
   return (
@@ -23,10 +27,10 @@ function App() {
           <Route path="/AddEquipment" element={<AddEquipment />} />
           <Route path="/GarnishList" element={<Garnish />} />
           <Route path="/AddGarnish" element={<AddGarnish />} />
-          {/* <Route path="/GlassList" element={<Glass />} /> */}
-          {/* <Route path="/AddGlass" element={<AddGlass />} /> */}
-          {/* <Route path="/IngredientList" element={<Ingredient />} /> */}
-          {/* <Route path="/AddIngredient" element={<AddIngredient />} /> */}
+          <Route path="/GlassList" element={<Glass />} />
+          <Route path="/AddGlass" element={<AddGlass />} />
+          <Route path="/IngredientList" element={<Ingredient />} />
+          <Route path="/AddIngredient" element={<AddIngredient />} />
         </Routes>
       </div>
     </Router>
